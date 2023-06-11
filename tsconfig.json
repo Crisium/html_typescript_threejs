@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"module": "ES2020",
+		"declaration": true,
+		"outDir": "./dist",
+		"noImplicitAny": false,
+		"noEmitOnError": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"target": "es2020",
+		"lib": [ "es2020", "dom" ],
+		"typeRoots": [],
+		//"types": ["jquery", "three"],
+		"types": [],
+		"allowSyntheticDefaultImports": true,
+		//"baseUrl": ".",
+		//"baseUrl": "./src"
+		//"skipLibCheck": true
+	},
+	"include": [
+		"./src/"
+	],
+	"exclude": [
+		"node_modules"
+	]
+} 
